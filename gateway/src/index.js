@@ -12,6 +12,7 @@ const PORT = process.env.PORT;
 // Application entry point.
 //
 async function main() {
+    console.log("hello world");
     const app = express();
 
     app.set("views", path.join(__dirname, "views")); // Set directory that contains templates for views.
